@@ -1,1 +1,16 @@
-
+okx-bot-github/
+├── src/
+│   ├── bot_core.py              # Main bot logic
+│   ├── indicators.py            # AI indicators
+│   └── exchange_api.py          # OKX API wrapper
+├── config/
+│   ├── config_template.py       # Template config (TANPA API keys)
+│   └── risk_settings.py         # Risk management settings
+├── scripts/
+│   ├── install_dependencies.sh  # Auto-install script
+│   └── setup_android.sh         # Android setup
+├── docs/
+│   ├── README.md                # Documentation
+│   └── SETUP_GUIDE.md           # Setup instructions
+├── requirements.txt             # Python dependencies
+└── .gitignore                   # File yang di-exclude
