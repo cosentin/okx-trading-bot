@@ -102,3 +102,6 @@ git pull origin main
 # Restart bot dengan update terbaru
 pkill -f main.py
 python src/main.py
+jalankan
+chmod +x scripts/git_helper.sh
+./git_helper.sh update
